@@ -49,7 +49,57 @@ const words = [
     "gali ka trending topic",
     "\"full toss\" delivery",
     "sabki \"favorite\" list top",
-    "legend, tu daily proof"
+    "legend, tu daily proof",
+    "Netflix ka shared account",
+    "Zomato pe 100% off",
+    "Jio ka free data pack",
+    "WhatsApp group ki admin",
+    "Instagram pe sabki following",
+    "Amazon ka return parcel",
+    "Flipkart pe open box delivery",
+    "Swiggy pe unlimited free delivery",
+    "PUBG mein free skin",
+    "Spotify ka family plan",
+    "YouTube Premium trial forever",
+    "Telegram ka public channel",
+    "TikTok pe sabki duet partner",
+    "Snapchat pe streak sabke saath",
+    "Twitter pe trending topic",
+    "Reddit ka karma farm",
+    "Discord ka everyone @here",
+    "Gmail ka spam folder queen",
+    "Truecaller pe \"unknown number\"",
+    "Paytm ka cashback wali",
+    "Google Pay ka scratch card daily",
+    "PhonePe ka free recharge",
+    "Ola mein pool ride favorite",
+    "Uber ka surge pricing nahi lagta",
+    "Rapido pe free ride coupon",
+    "Blinkit pe 10-minute delivery",
+    "Zepto ka zero delivery charge",
+    "BigBasket ka slot sabke liye open",
+    "Myntra pe exchange without bill",
+    "Meesho ka resell queen",
+    "Canva ka free pro version",
+    "ChatGPT ka unlimited access",
+    "Torrent ka seed ratio 100",
+    "Prime Video ka shared profile",
+    "Hotstar ka multiplex wali screen",
+    "Freecharge ka wallet sabka",
+    "Airtel ka family plan head",
+    "Vi ka weekend rollover",
+    "BSNL ka signal bhi catch karti",
+    "LinkedIn pe open to work sabke liye",
+    "Naukri.com pe top profile",
+    "Indeed ka easy apply queen",
+    "Shaadi.com pe featured profile",
+    "Tinder pe super like sabko",
+    "Bumble pe sabki match",
+    "Hinge pe most compatible",
+    "Facebook pe friend request accept all",
+    "Instagram pe close friends list mein nahi",
+    "Twitter pe ratio khane aati hai",
+    "WhatsApp status pe sabki view"
 ];
 
 // State
@@ -64,17 +114,22 @@ const animatedTextContainer = document.querySelector('.animated-text-container')
 // Function to update text with animation
 function updateText() {
     if (isPaused) return;
-
+    
     // Trigger exit animation
     animatedText.style.animation = 'none';
-
+    
     // Force reflow
     void animatedText.offsetWidth;
-
-    // Update text
-    currentIndex = (currentIndex + 1) % words.length;
+    
+    // Update text with random index (avoiding same word twice in a row)
+    let newIndex;
+    do {
+        newIndex = Math.floor(Math.random() * words.length);
+    } while (newIndex === currentIndex && words.length > 1);
+    
+    currentIndex = newIndex;
     animatedText.textContent = words[currentIndex];
-
+    
     // Trigger enter animation
     animatedText.style.animation = 'text-slide-in 0.6s ease';
 }
