@@ -1,35 +1,40 @@
 "use client";
 
 import { useState } from "react";
-import type { Joke } from "@/data/jokes";
+import type { RoastJoke } from "@/data/jokes";
 
 type JokeZoneProps = {
-  initialJoke: Joke;
+  initialJoke: RoastJoke;
 };
 
 export function JokeZone({ initialJoke }: JokeZoneProps) {
-  const [joke, setJoke] = useState<Joke>(initialJoke);
+  const [joke, setJoke] = useState<RoastJoke>(initialJoke);
   const [loading, setLoading] = useState(false);
-  const displayedJoke = joke.line.toUpperCase();
+  const [izzatLevel, setIzzatLevel] = useState(8);
+
+  const displayedJoke = joke.joke.toUpperCase();
 
   const loadRandomJoke = async () => {
     setLoading(true);
     try {
       const response = await fetch("/api/random", { cache: "no-store" });
-      const nextJoke = (await response.json()) as Joke;
+      const nextJoke = (await response.json()) as RoastJoke;
       setJoke(nextJoke);
+
+      const nextLevel = Math.max(3, Math.min(26, 4 + (nextJoke.id * 7) % 23));
+      setIzzatLevel(nextLevel);
     } finally {
       setLoading(false);
     }
   };
 
   const shareWhatsApp = () => {
-    const text = encodeURIComponent(`${joke.line} | terimummy.com`);
+    const text = encodeURIComponent(`${joke.joke} ${joke.punchline} | terimummy.com`);
     window.open(`https://wa.me/?text=${text}`, "_blank", "noopener,noreferrer");
   };
 
   const shareX = () => {
-    const text = encodeURIComponent(`${joke.line} #TeriMummy`);
+    const text = encodeURIComponent(`${joke.joke} ${joke.punchline} #TeriMummy`);
     window.open(
       `https://twitter.com/intent/tweet?text=${text}`,
       "_blank",
@@ -55,9 +60,13 @@ export function JokeZone({ initialJoke }: JokeZoneProps) {
           <div className="izzat-section">
             <p>MUMMY KI IZZAT LEVEL:</p>
             <div className="izzat-progress">
-              <div className="izzat-progress-fill" />
+              <div
+                className="izzat-progress-fill"
+                style={{ width: `${izzatLevel}%` }}
+                aria-label={`Izzat level ${izzatLevel}%`}
+              />
             </div>
-            <span>8% (CRITICALLY LOW)</span>
+            <span>{izzatLevel}% (CRITICALLY LOW)</span>
           </div>
           <div className="joke-divider" />
           <div className="joke-actions">

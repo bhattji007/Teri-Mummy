@@ -2,17 +2,17 @@ const entries = [
   {
     name: "— RAM_420, DELHI NCR",
     text: "BHAI YE SITE NE MERI MUMMY KI IZZAT KA KAAM TAMAM KAR DIYA. 10/10 WOULD ROAST AGAIN.",
-    tone: "magenta"
+    tone: "tone-magenta"
   },
   {
     name: "— SHARMA JI KI BETI, KANPUR",
     text: "SHARMA JI NE SHARE KIYA, SHARMA JI KI BETI NE SHARE KIYA, TERI MUMMY NE BHI SHARE KI APNI KHUD KI ROAST.",
-    tone: "lime"
+    tone: "tone-lime"
   },
   {
     name: "— TERI MUMMY KA PADOSI",
     text: "TERI MUMMY KA PADOSI HOON. IH JOKES MERE BAARE MEIN HAIN. PLEASE DELETE KARO. 5 STARS.",
-    tone: "yellow"
+    tone: "tone-yellow"
   }
 ] as const;
 
