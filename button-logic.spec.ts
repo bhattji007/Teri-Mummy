@@ -45,7 +45,7 @@ test('button and link logic', async ({ browser }) => {
   await page.locator('#joke-zone').scrollIntoViewIfNeeded();
 
   const waPromise = page.waitForEvent('popup');
-  await page.getByRole('button', { name: /WHATSAPP|SHARE PE WHATSAPP/i }).click();
+  await page.getByRole('button', { name: /WHATSAPP|WHATSAPP PE SHARE /i }).click();
   const wa = await waPromise;
   expect(wa.url()).toMatch(/(wa\.me|whatsapp\.com)/);
   await wa.close();
