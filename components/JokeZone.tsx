@@ -108,7 +108,7 @@ export function JokeZone({ initialJoke }: JokeZoneProps) {
           <div className="joke-divider" />
           <div className="joke-actions">
             <button className="btn btn-wa" onClick={shareWhatsApp}>
-              📱 SHARE PE WHATSAPP
+              📱 WHATSAPP PE SHARE
             </button>
             <button className="btn btn-dark" onClick={shareX}>
               🐦 POST ON X
