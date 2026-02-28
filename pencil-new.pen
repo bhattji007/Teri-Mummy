@@ -1,0 +1,3380 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "TKvjW",
+      "x": 249.56764905543304,
+      "y": -46.54641265882893,
+      "name": "SealInner",
+      "rotation": 0.49806123790649426,
+      "clip": true,
+      "width": 333,
+      "height": 331,
+      "fill": "#080808",
+      "cornerRadius": 999,
+      "layout": "vertical",
+      "gap": 3,
+      "padding": 20,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "ekXGI",
+          "name": "sealTeri",
+          "fill": "#CCFF00",
+          "textGrowth": "fixed-width",
+          "width": 314,
+          "content": "TERI",
+          "textAlign": "center",
+          "fontFamily": "Anton",
+          "fontSize": 52,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "WSvgU",
+          "name": "sealLineTop",
+          "width": "fill_container",
+          "height": 3,
+          "fill": "#FF00FF",
+          "cornerRadius": 2,
+          "justifyContent": "space_around",
+          "alignItems": "center"
+        },
+        {
+          "type": "text",
+          "id": "hhC2H",
+          "name": "sealMummy",
+          "fill": "#FF00FF",
+          "textGrowth": "fixed-width",
+          "width": "fit_content(320)",
+          "content": "MUMMY",
+          "textAlign": "center",
+          "fontFamily": "Anton",
+          "fontSize": 76,
+          "fontWeight": "normal",
+          "letterSpacing": -3
+        },
+        {
+          "type": "frame",
+          "id": "FHQHy",
+          "name": "sealLineBot",
+          "width": "fill_container",
+          "height": 3,
+          "fill": "#CCFF00",
+          "cornerRadius": 2,
+          "justifyContent": "space_around",
+          "alignItems": "center"
+        },
+        {
+          "type": "text",
+          "id": "4esfs",
+          "name": "sealDotCom",
+          "fill": "#FFD700",
+          "content": ".COM",
+          "textAlign": "center",
+          "fontFamily": "Space Mono",
+          "fontSize": 12,
+          "fontWeight": "normal",
+          "letterSpacing": 4
+        },
+        {
+          "type": "text",
+          "id": "7picv",
+          "name": "arcBot",
+          "fill": "#FF00FF",
+          "content": "◆ EST. 2 AM DELHI ◆ ROAST APPROVED ◆",
+          "textAlign": "center",
+          "fontFamily": "Inter",
+          "fontSize": 8,
+          "fontWeight": "bold",
+          "letterSpacing": 1
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "iBWEX",
+      "x": 0,
+      "y": 500,
+      "name": "WarnBand",
+      "width": 1440,
+      "height": 44,
+      "fill": "#FF00FF",
+      "padding": [
+        0,
+        48
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "cvTxZ",
+          "name": "warnTxt",
+          "fill": "#080808",
+          "content": "⚠ TERI MUMMY NE IS SITE KO REPORT KAR DIYA  ◆  INDIA BAND KARNE KI KOSHISH HO RAHI HAI  ◆  HUM PHIR BHI CHAL RAHE HAIN  ◆  6.9M+ IZZAT BARBAD  ◆  ⚠ TERI MUMMY NE IS SITE KO REPORT KAR DIYA  ◆  INDIA BAND KARNE KI KOSHISH",
+          "fontFamily": "Space Mono",
+          "fontSize": 11,
+          "fontWeight": "bold"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "RhLbl",
+      "x": 0,
+      "y": 544,
+      "name": "Nav",
+      "width": 1440,
+      "height": 72,
+      "fill": "#080808",
+      "padding": [
+        0,
+        60
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "Kvpop",
+          "name": "navLogo",
+          "width": "fill_container",
+          "gap": 8,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "XVvfO",
+              "name": "navLogoMark",
+              "width": 36,
+              "height": 36,
+              "fill": "#FF00FF",
+              "cornerRadius": 99,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jAxEy",
+                  "name": "navLogoTM",
+                  "fill": "#080808",
+                  "content": "TM",
+                  "textAlign": "center",
+                  "fontFamily": "Anton",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4WiAj",
+              "name": "navLogoText",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yXAbp",
+                  "name": "navLogoT1",
+                  "fill": "#CCFF00",
+                  "content": "TERI MUMMY",
+                  "fontFamily": "Anton",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                  "letterSpacing": -1
+                },
+                {
+                  "type": "text",
+                  "id": "LUcKh",
+                  "name": "navLogoT2",
+                  "fill": "#FF00FF",
+                  "content": ".COM",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 9,
+                  "fontWeight": "normal",
+                  "letterSpacing": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FL3wl",
+          "name": "navLinks",
+          "gap": 32,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "me7AT",
+              "name": "nL1",
+              "fill": "#FFFFFF",
+              "content": "JOKES",
+              "fontFamily": "Space Mono",
+              "fontSize": 12,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "dIr3w",
+              "name": "nL2",
+              "fill": "#FFFFFF",
+              "content": "API",
+              "fontFamily": "Space Mono",
+              "fontSize": 12,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "u7Wq2",
+              "name": "nL3",
+              "fill": "#FFFFFF",
+              "content": "GITHUB",
+              "fontFamily": "Space Mono",
+              "fontSize": 12,
+              "fontWeight": "bold"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aCum5",
+          "name": "navLive",
+          "fill": "#FF00FF22",
+          "cornerRadius": 99,
+          "gap": 6,
+          "padding": [
+            8,
+            16
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "r7TDe",
+              "name": "navLiveDot",
+              "fill": "#FF0000",
+              "content": "●",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "HyREP",
+              "name": "navLiveTxt",
+              "fill": "#FFFFFF",
+              "content": "69,420 LIVE",
+              "fontFamily": "Space Mono",
+              "fontSize": 11,
+              "fontWeight": "bold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "sfWnk",
+      "x": 0,
+      "y": 616,
+      "name": "Hero",
+      "width": 1440,
+      "height": 940,
+      "fill": "#080808",
+      "gap": 48,
+      "padding": [
+        72,
+        60
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "PSWbV",
+          "name": "HeroLeft",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "xdAbe",
+              "name": "heroBadge",
+              "rotation": -2,
+              "fill": "#CCFF0011",
+              "cornerRadius": 4,
+              "gap": 8,
+              "padding": [
+                6,
+                16
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GxVAK",
+                  "name": "heroBadgeTxt",
+                  "fill": "#CCFF00",
+                  "content": "🔞 NOT SAFE FOR MUMMIES — PROCEED WITH ZERO REGRETS",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 10,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "KlhVR",
+              "name": "heroH1",
+              "fill": "#FFFFFF",
+              "content": "INTERNET KA",
+              "fontFamily": "Anton",
+              "fontSize": 104,
+              "fontWeight": "normal",
+              "letterSpacing": -3
+            },
+            {
+              "type": "text",
+              "id": "E0J8O",
+              "name": "heroH2",
+              "fill": "#CCFF00",
+              "content": "SABSE KHATARNAK",
+              "fontFamily": "Anton",
+              "fontSize": 104,
+              "fontWeight": "normal",
+              "letterSpacing": -3
+            },
+            {
+              "type": "text",
+              "id": "hSOB5",
+              "name": "heroH3",
+              "fill": "#FF00FF",
+              "content": "JOKE SITE. 💀",
+              "fontFamily": "Anton",
+              "fontSize": 104,
+              "fontWeight": "normal",
+              "letterSpacing": -3
+            },
+            {
+              "type": "text",
+              "id": "DJFgj",
+              "name": "heroTagline",
+              "fill": "#999999",
+              "content": "Delhi ki 2 AM chai stall energy. Raw. Unhinged. Legendary.\nTeri mummy ko bhejo — woh block kar degi, tu viral ho jayega.",
+              "fontFamily": "Space Mono",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "hMJxw",
+              "name": "heroSeenRow",
+              "gap": 8,
+              "padding": [
+                4,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "1i769",
+                  "name": "seenLabel",
+                  "fill": "#333333",
+                  "content": "AS SEEN ON:",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 10,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "frame",
+                  "id": "k4xyt",
+                  "name": "seen1",
+                  "fill": "#FFFFFF0A",
+                  "cornerRadius": 99,
+                  "padding": [
+                    5,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UsWRQ",
+                      "name": "seen1t",
+                      "fill": "#666666",
+                      "content": "📱 WhatsApp Groups",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pCZ2H",
+                  "name": "seen2",
+                  "fill": "#FFFFFF0A",
+                  "cornerRadius": 99,
+                  "padding": [
+                    5,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "o88F1",
+                      "name": "seen2t",
+                      "fill": "#666666",
+                      "content": "💬 Papa Ki Phone",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uYHLj",
+                  "name": "seen3",
+                  "fill": "#FFFFFF0A",
+                  "cornerRadius": 99,
+                  "padding": [
+                    5,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1PxDl",
+                      "name": "seen3t",
+                      "fill": "#666666",
+                      "content": "🌐 Delhi Chai Stalls",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MQXN2",
+              "name": "heroCTARow",
+              "gap": 12,
+              "padding": [
+                8,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FEwDr",
+                  "name": "ctaBtn",
+                  "fill": "#CCFF00",
+                  "cornerRadius": 6,
+                  "gap": 10,
+                  "padding": [
+                    20,
+                    48
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Tudcd",
+                      "name": "ctaBtnT",
+                      "fill": "#080808",
+                      "content": "AUR SUNAO! 🔥",
+                      "fontFamily": "Anton",
+                      "fontSize": 24,
+                      "fontWeight": "normal",
+                      "letterSpacing": -1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UtbJc",
+                  "name": "ctaSecBtn",
+                  "fill": "#080808",
+                  "cornerRadius": 6,
+                  "gap": 10,
+                  "padding": [
+                    20,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Fe26h",
+                      "name": "ctaSecBtnT",
+                      "fill": "#AAAAAA",
+                      "content": "API DEKHO →",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lLjLt",
+          "name": "HeroRight",
+          "width": 420,
+          "height": 507,
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "N3H1x",
+              "name": "newPoster",
+              "clip": true,
+              "width": "fill_container",
+              "height": 500,
+              "fill": "#1A0F00",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xQzbf",
+                  "name": "hdr",
+                  "width": "fill_container",
+                  "fill": "#FFD700",
+                  "padding": [
+                    12,
+                    0
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cXoBS",
+                      "name": "hdrTxt",
+                      "fill": "#080808",
+                      "content": "⚠ WANTED: FACIAL SCAN ⚠",
+                      "fontFamily": "Anton",
+                      "fontSize": 20,
+                      "fontWeight": "normal",
+                      "letterSpacing": 3
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wtXV3",
+                  "name": "hdrDiv",
+                  "width": "fill_container",
+                  "height": 2,
+                  "fill": "#FFD70033"
+                },
+                {
+                  "type": "frame",
+                  "id": "5gnUc",
+                  "name": "body",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "IjJCf",
+                      "name": "MugshotScan",
+                      "width": 340,
+                      "height": 200,
+                      "fill": "#0A0A0A",
+                      "cornerRadius": 4,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "tioYT",
+                          "name": "faceFrame",
+                          "width": 340,
+                          "height": 200,
+                          "fill": {
+                            "type": "image",
+                            "enabled": true,
+                            "url": "./images/generated-1772272114678.png",
+                            "mode": "fill"
+                          },
+                          "cornerRadius": 4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "drvBt",
+                      "name": "subjectName",
+                      "fill": "#FF00FF",
+                      "content": "TERI MUMMY",
+                      "fontFamily": "Anton",
+                      "fontSize": 22,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OgQXB",
+                      "name": "scanRow",
+                      "width": 340,
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WOy3M",
+                          "name": "scanLbl",
+                          "fill": "#FFD700",
+                          "content": "SCAN:",
+                          "fontFamily": "Space Mono",
+                          "fontSize": 9,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZRj4M",
+                          "name": "scanBg",
+                          "width": 224,
+                          "height": 8,
+                          "fill": "#1A1A1A",
+                          "cornerRadius": 4,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "nOQyo",
+                              "name": "scanFill",
+                              "width": 160,
+                              "height": 8,
+                              "fill": "#CCFF00",
+                              "cornerRadius": 4
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "7rVD7",
+                          "name": "scanPct",
+                          "fill": "#CCFF00",
+                          "content": "72%",
+                          "fontFamily": "Space Mono",
+                          "fontSize": 9,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ldllz",
+                      "name": "bioSectionDiv",
+                      "width": 340,
+                      "height": 1,
+                      "fill": "#333333"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "6oS1C",
+                      "name": "bioRow1",
+                      "width": 340,
+                      "height": 20,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rthrw",
+                          "name": "bio1L",
+                          "fill": "#666666",
+                          "content": "IZZAT LEVEL:",
+                          "fontFamily": "Space Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qysat",
+                          "name": "bio1V",
+                          "fill": "#FF4444",
+                          "content": "0.3% ↓",
+                          "fontFamily": "Space Mono",
+                          "fontSize": 9,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DRqWF",
+                      "name": "bioRow2",
+                      "width": 340,
+                      "height": 20,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Y0Jmq",
+                          "name": "bio2L",
+                          "fill": "#666666",
+                          "content": "ROAST POTENTIAL:",
+                          "fontFamily": "Space Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "uwTAc",
+                          "name": "bio2V",
+                          "fill": "#CCFF00",
+                          "content": "MAXIMUM ⚠",
+                          "fontFamily": "Space Mono",
+                          "fontSize": 9,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vjl2U",
+                      "name": "bioRow3",
+                      "width": 340,
+                      "height": 20,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "duuLp",
+                          "name": "bio3L",
+                          "fill": "#666666",
+                          "content": "CRIME:",
+                          "fontFamily": "Space Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mubxH",
+                          "name": "bio3V",
+                          "fill": "#FF00FF",
+                          "content": "EXCESSIVE IZZAT",
+                          "fontFamily": "Space Mono",
+                          "fontSize": 9,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "sNAnm",
+                  "name": "bountyBar",
+                  "width": "fill_container",
+                  "fill": "#FFD700",
+                  "padding": [
+                    12,
+                    0
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IRrnv",
+                      "name": "bountyTxt",
+                      "fill": "#080808",
+                      "content": "BOUNTY: ∞ IZZAT  —  DEAD OR ROASTED",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "FAKa3",
+              "name": "liveWidget",
+              "width": 420,
+              "height": 244,
+              "fill": "#111111",
+              "cornerRadius": 12,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": [
+                20,
+                24
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AXD1b",
+                  "name": "lwHeader",
+                  "width": 372,
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HWC5q",
+                      "name": "lwDot",
+                      "fill": "#FF0000",
+                      "content": "●",
+                      "fontFamily": "Inter",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Rd8j3",
+                      "name": "lwTitle",
+                      "fill": "#FF0000",
+                      "content": "LIVE DAMAGE COUNTER",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 10,
+                      "fontWeight": "bold",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "dbLG3",
+                  "name": "lwNum",
+                  "fill": "#CCFF00",
+                  "content": "6,942,069",
+                  "fontFamily": "Anton",
+                  "fontSize": 48,
+                  "fontWeight": "normal",
+                  "letterSpacing": -2
+                },
+                {
+                  "type": "text",
+                  "id": "p7nMT",
+                  "name": "lwSub",
+                  "fill": "#666666",
+                  "content": "jokes served  •  izzat barbad",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "PUk2Q",
+                  "name": "lwDiv",
+                  "width": 372,
+                  "height": 1,
+                  "fill": "#2A2A2A"
+                },
+                {
+                  "type": "frame",
+                  "id": "glKjZ",
+                  "name": "lwRow1",
+                  "width": 372,
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rNJ98",
+                      "name": "lwR1L",
+                      "fill": "#888888",
+                      "content": "WhatsApp forwards",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xL384",
+                      "name": "lwR1V",
+                      "fill": "#CCFF00",
+                      "content": "69.4K",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SNTdX",
+                  "name": "lwRow2",
+                  "width": 372,
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HpahV",
+                      "name": "lwR2L",
+                      "fill": "#888888",
+                      "content": "Mammas roasted",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "9aflp",
+                      "name": "lwR2V",
+                      "fill": "#FF00FF",
+                      "content": "∞",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "a17HN",
+      "x": 0,
+      "y": 1556,
+      "name": "Ticker",
+      "clip": true,
+      "width": 1440,
+      "height": 80,
+      "fill": "#CCFF00",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "zTzWz",
+          "name": "tickerInner",
+          "width": 1440,
+          "height": 80,
+          "gap": 64,
+          "padding": [
+            0,
+            48
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "r6q0w",
+              "name": "t1",
+              "fill": "#080808",
+              "content": "⚡ TERI MUMMY KO GOOGLE PE SEARCH KIYA",
+              "fontFamily": "Space Mono",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "elJew",
+              "name": "t2",
+              "fill": "#FF00FF",
+              "content": "⚡ RESULT AAYA: TOO MANY RESULTS",
+              "fontFamily": "Space Mono",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "wmMu1",
+              "name": "t3",
+              "fill": "#080808",
+              "content": "⚡ TERI MUMMY ITNI MOTI HAI",
+              "fontFamily": "Space Mono",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "HfvrL",
+              "name": "t4",
+              "fill": "#FF00FF",
+              "content": "⚡ GRAVITY BOLTA HAI SORRY MA'AM",
+              "fontFamily": "Space Mono",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "kUaDb",
+              "name": "t5",
+              "fill": "#080808",
+              "content": "⚡ TERI MUMMY KA WEIGHT CLASS:",
+              "fontFamily": "Space Mono",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "SR0Ya",
+              "name": "t6",
+              "fill": "#FF00FF",
+              "content": "⚡ PLANET",
+              "fontFamily": "Space Mono",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "jAOZ4",
+              "fill": "#000000",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Dw4q4",
+      "x": 0,
+      "y": 1636,
+      "name": "JokeZone",
+      "width": 1440,
+      "height": 880,
+      "fill": "#080808",
+      "layout": "vertical",
+      "gap": 48,
+      "padding": [
+        72,
+        220
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "lhDIs",
+          "name": "sectionLabel",
+          "fill": "#FF00FF",
+          "content": "// THE DAILY BURN //",
+          "fontFamily": "Space Mono",
+          "fontSize": 14,
+          "fontWeight": "700",
+          "letterSpacing": 4
+        },
+        {
+          "type": "frame",
+          "id": "V2aQI",
+          "name": "JokeCard",
+          "width": 800,
+          "fill": "#111111",
+          "cornerRadius": 4,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "qipsl",
+              "name": "cardTop",
+              "width": "fill_container",
+              "fill": "#1A1A1A",
+              "padding": [
+                12,
+                24
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yCtak",
+                  "name": "cardTopLeft",
+                  "fill": "#888888",
+                  "content": "TERI MUMMY KI ROAST FILE #0069",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "EqnmQ",
+                  "name": "classifiedStamp",
+                  "fill": "#FF000022",
+                  "cornerRadius": 2,
+                  "padding": [
+                    4,
+                    10
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NwSXo",
+                      "name": "classifiedTxt",
+                      "fill": "#FF0000",
+                      "content": "⛔ CLASSIFIED",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 10,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zJGEC",
+              "name": "jokeBody",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                40,
+                48
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IFFlK",
+                  "name": "openQuote",
+                  "fill": "#CCFF00",
+                  "content": "\"",
+                  "fontFamily": "Inter",
+                  "fontSize": 80,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "AVZBe",
+                  "name": "jokeText",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 704,
+                  "content": "TERI MUMMY ITNI MOTI HAI KI USKA PASSPORT PHOTO SATELLITE IMAGE HAI.",
+                  "fontFamily": "Anton",
+                  "fontSize": 32,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "8lR6I",
+                  "name": "izzatSection",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dUyOQ",
+                      "name": "izzatLabel",
+                      "fill": "#FF00FF",
+                      "content": "MUMMY KI IZZAT LEVEL:",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QlhNW",
+                      "name": "progressBg",
+                      "width": "fill_container",
+                      "height": 12,
+                      "fill": "#2A2A2A",
+                      "cornerRadius": 6,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "wKq20",
+                          "name": "progressFill",
+                          "width": 56,
+                          "height": 12,
+                          "fill": "#CCFF00",
+                          "cornerRadius": 6
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "rPXZB",
+                      "name": "izzatPct",
+                      "fill": "#FF4444",
+                      "content": "8% (CRITICALLY LOW)",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "UIyEU",
+                  "name": "divider",
+                  "width": "fill_container",
+                  "height": 1,
+                  "fill": "#333333"
+                },
+                {
+                  "type": "frame",
+                  "id": "iBMwm",
+                  "name": "shareRow",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "6iodo",
+                      "name": "waBtn",
+                      "fill": "#25D366",
+                      "cornerRadius": 2,
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PrE4o",
+                          "name": "waLbl",
+                          "fill": "#080808",
+                          "content": "📲 WHATSAPP KAR",
+                          "fontFamily": "Space Mono",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZwdnV",
+                      "name": "twBtn",
+                      "fill": "#080808",
+                      "cornerRadius": 2,
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jhZ5C",
+                          "name": "twLbl",
+                          "fill": "#1DA1F2",
+                          "content": "𝕏 POST KAR",
+                          "fontFamily": "Space Mono",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "R4vkq",
+                      "name": "cpBtn",
+                      "fill": "#080808",
+                      "cornerRadius": 2,
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "uY5Vh",
+                          "name": "cpLbl",
+                          "fill": "#CCFF00",
+                          "content": "📋 COPY KAR",
+                          "fontFamily": "Space Mono",
+                          "fontSize": 12,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RX5mj",
+          "name": "newJokeBtn",
+          "fill": "#CCFF00",
+          "cornerRadius": 2,
+          "gap": 12,
+          "padding": [
+            18,
+            48
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "kRB57",
+              "name": "newJokeLbl",
+              "fill": "#080808",
+              "content": "🎲 NAYA JOKE LAO",
+              "fontFamily": "Anton",
+              "fontSize": 24,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ONBRl",
+      "x": 0,
+      "y": 2516,
+      "name": "StatsBar",
+      "width": 1440,
+      "height": 120,
+      "fill": "#FFD700",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "u9KTt",
+          "name": "s1",
+          "width": 316,
+          "layout": "vertical",
+          "gap": 4,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "uqbzp",
+              "name": "s1num",
+              "fill": "#080808",
+              "content": "69,420+",
+              "fontFamily": "Anton",
+              "fontSize": 36,
+              "fontWeight": "normal",
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "mWyjj",
+              "name": "s1lbl",
+              "fill": "#080808",
+              "content": "JOKES DELIVERED",
+              "fontFamily": "Space Mono",
+              "fontSize": 12,
+              "fontWeight": "700",
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "OSWuf",
+          "name": "divA",
+          "width": 2,
+          "height": 64,
+          "fill": "#00000044"
+        },
+        {
+          "type": "frame",
+          "id": "fJJFW",
+          "name": "s2",
+          "width": 316,
+          "layout": "vertical",
+          "gap": 4,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Kus2Z",
+              "name": "s2num",
+              "fill": "#FF00FF",
+              "content": "∞",
+              "fontFamily": "Inter",
+              "fontSize": 40,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "YkhoY",
+              "name": "s2lbl",
+              "fill": "#080808",
+              "content": "MAMMAS ROASTED",
+              "fontFamily": "Space Mono",
+              "fontSize": 12,
+              "fontWeight": "700",
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "7PzTc",
+          "name": "divB",
+          "width": 2,
+          "height": 64,
+          "fill": "#00000044"
+        },
+        {
+          "type": "frame",
+          "id": "4jlmp",
+          "name": "s3",
+          "width": 316,
+          "layout": "vertical",
+          "gap": 4,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "c61iS",
+              "name": "s3num",
+              "fill": "#080808",
+              "content": "4.5/5",
+              "fontFamily": "Anton",
+              "fontSize": 36,
+              "fontWeight": "normal",
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "y5DMU",
+              "name": "s3lbl",
+              "fill": "#080808",
+              "content": "IZZAT RATING ⭐",
+              "fontFamily": "Space Mono",
+              "fontSize": 12,
+              "fontWeight": "700",
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HOTDW",
+          "name": "divC",
+          "width": 2,
+          "height": 64,
+          "fill": "#00000044"
+        },
+        {
+          "type": "frame",
+          "id": "q7hJI",
+          "name": "s4",
+          "width": 316,
+          "layout": "vertical",
+          "gap": 4,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "mYur9",
+              "name": "s4num",
+              "fill": "#FF00FF",
+              "content": "100%",
+              "fontFamily": "Anton",
+              "fontSize": 36,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "D10X6",
+              "name": "s4lbl",
+              "fill": "#080808",
+              "content": "MUMMY APPROVED",
+              "fontFamily": "Space Mono",
+              "fontSize": 12,
+              "fontWeight": "700",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "spv58",
+      "x": 0,
+      "y": 2636,
+      "name": "Testimonials",
+      "width": 1440,
+      "height": 560,
+      "fill": "#0A0A0A",
+      "layout": "vertical",
+      "gap": 48,
+      "padding": [
+        72,
+        120
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "sVQl9",
+          "name": "testiTitle",
+          "fill": "#CCFF00",
+          "content": "VICTIM TESTIMONIALS",
+          "fontFamily": "Anton",
+          "fontSize": 48,
+          "fontWeight": "normal",
+          "letterSpacing": 2
+        },
+        {
+          "type": "frame",
+          "id": "yWR9c",
+          "name": "testiRow",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "zAEXA",
+              "name": "TestiCard1",
+              "rotation": -2.5,
+              "width": 360,
+              "fill": "#111111",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LEqfi",
+                  "name": "v1",
+                  "fill": "#FF00FF22",
+                  "cornerRadius": 2,
+                  "gap": 6,
+                  "padding": [
+                    3,
+                    8
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "1Jfho",
+                      "name": "v1t",
+                      "fill": "#FF00FF",
+                      "content": "✓ VERIFIED VICTIM",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 8,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "dYC4P",
+                  "name": "c1stars",
+                  "fill": "#FFD700",
+                  "content": "★★★★★",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "KNYUF",
+                  "name": "c1quote",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 312,
+                  "content": "BHAI YE SITE NE MERI MUMMY KI IZZAT KA KAAM TAMAM KAR DIYA. 10/10 WOULD ROAST AGAIN.",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "tzsYS",
+                  "name": "c1name",
+                  "fill": "#FF00FF",
+                  "content": "— RAM_420, DELHI NCR",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qQwKt",
+              "name": "TestiCard2",
+              "rotation": 1.8,
+              "width": 360,
+              "fill": "#111111",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yOVUq",
+                  "name": "v2",
+                  "fill": "#CCFF0022",
+                  "cornerRadius": 2,
+                  "gap": 6,
+                  "padding": [
+                    3,
+                    8
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iD5nz",
+                      "name": "v2t",
+                      "fill": "#CCFF00",
+                      "content": "✓ VERIFIED VICTIM",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 8,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "9BfQo",
+                  "name": "c2stars",
+                  "fill": "#FFD700",
+                  "content": "★★★★★",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "KUqHg",
+                  "name": "c2quote",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 312,
+                  "content": "SHARMA JI NE SHARE KIYA, SHARMA JI KI BETI NE SHARE KIYA, TERI MUMMY NE BHI SHARE KI APNI KHUD KI ROAST.",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "wdNSu",
+                  "name": "c2name",
+                  "fill": "#CCFF00",
+                  "content": "— SHARMA JI KI BETI, KANPUR",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "909vB",
+              "name": "TestiCard3",
+              "rotation": -1.2,
+              "width": 360,
+              "fill": "#111111",
+              "cornerRadius": 4,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dlHhi",
+                  "name": "v3",
+                  "fill": "#FFD70022",
+                  "cornerRadius": 2,
+                  "gap": 6,
+                  "padding": [
+                    3,
+                    8
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "0n69M",
+                      "name": "v3t",
+                      "fill": "#FFD700",
+                      "content": "✓ VERIFIED VICTIM",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 8,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "lfokG",
+                  "name": "c3stars",
+                  "fill": "#FFD700",
+                  "content": "★★★★★",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "3zKE4",
+                  "name": "c3quote",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 312,
+                  "content": "TERI MUMMY KA PADOSI HOON. IH JOKES MERE BAARE MEIN HAIN. PLEASE DELETE KARO. 5 STARS.",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "qCqYM",
+                  "name": "c3name",
+                  "fill": "#FFD700",
+                  "content": "— TERI MUMMY KA PADOSI",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 10,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "wsd7i",
+      "x": 0,
+      "y": 3196,
+      "name": "APISection",
+      "width": 1440,
+      "height": 600,
+      "fill": "#080808",
+      "gap": 80,
+      "padding": [
+        72,
+        120
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "7eSzW",
+          "name": "apiLeft",
+          "width": 480,
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "cxTQk",
+              "name": "apiEyebrow",
+              "fill": "#FF00FF",
+              "content": "// FOR THE NERDS //",
+              "fontFamily": "Space Mono",
+              "fontSize": 12,
+              "fontWeight": "700",
+              "letterSpacing": 3
+            },
+            {
+              "type": "text",
+              "id": "YHQPT",
+              "name": "apiHeadline",
+              "fill": "#CCFF00",
+              "textGrowth": "fixed-width",
+              "width": 480,
+              "content": "FREE JOKE API.",
+              "fontFamily": "Anton",
+              "fontSize": 56,
+              "fontWeight": "normal",
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "5Jw15",
+              "name": "apiSub",
+              "fill": "#888888",
+              "textGrowth": "fixed-width",
+              "width": 480,
+              "content": "Apni app mein teri mummy ka dard inject karo. 100% free. No auth. No rate limit (theek hai thoda hai).",
+              "fontFamily": "Space Mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "wiPG4",
+              "name": "apiEndpointChip",
+              "fill": "#0D1A0D",
+              "cornerRadius": 2,
+              "gap": 12,
+              "padding": [
+                10,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eXmK8",
+                  "name": "methodTag",
+                  "fill": "#CCFF00",
+                  "content": "GET",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "aDvtv",
+                  "name": "endpointPath",
+                  "fill": "#FFFFFF",
+                  "content": "terimummy.com/api/random",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "D6arA",
+          "name": "Terminal",
+          "width": 600,
+          "fill": "#0D0D0D",
+          "cornerRadius": 4,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "8tX50",
+              "name": "termTop",
+              "fill": "#1A1A1A",
+              "gap": 8,
+              "padding": [
+                10,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "KNc0E",
+                  "name": "dot1",
+                  "width": 10,
+                  "height": 10,
+                  "fill": "#FF5F57",
+                  "cornerRadius": 99
+                },
+                {
+                  "type": "frame",
+                  "id": "XU7EF",
+                  "name": "dot2",
+                  "width": 10,
+                  "height": 10,
+                  "fill": "#FFBD2E",
+                  "cornerRadius": 99
+                },
+                {
+                  "type": "frame",
+                  "id": "zgagD",
+                  "name": "dot3",
+                  "width": 10,
+                  "height": 10,
+                  "fill": "#28C840",
+                  "cornerRadius": 99
+                },
+                {
+                  "type": "text",
+                  "id": "6c1NS",
+                  "name": "termTitle",
+                  "fill": "#666666",
+                  "content": "bash — terimummy-api",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qw33Y",
+              "name": "termBody",
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                24,
+                20
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "8j3Oe",
+                  "name": "termLine1",
+                  "fill": "#CCFF00",
+                  "content": "$ curl terimummy.com/api/random",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "OVbYs",
+                  "name": "termResp",
+                  "fill": "#39FF14",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "{\n  \"id\": 69,\n  \"joke\": \"Teri mummy itni slow hai ki...\",\n  \"punchline\": \"...usne Google Maps khola aur GPS ne bhi bol diya GOOD LUCK.\",\n  \"damage\": \"∞ izzat\",\n  \"category\": \"speed\",\n  \"roast_level\": \"NUCLEAR\"\n}",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "9SQiB",
+      "x": 0,
+      "y": 3796,
+      "name": "Footer",
+      "width": 1440,
+      "height": 200,
+      "fill": "#050505",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": [
+        48,
+        120
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "pcz7K",
+          "name": "footerLogoRow",
+          "gap": 12,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "YtLEu",
+              "name": "footerTM",
+              "fill": "#CCFF00",
+              "content": "TERI MUMMY",
+              "fontFamily": "Anton",
+              "fontSize": 24,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "wY5bk",
+              "name": "footerDot",
+              "fill": "#FF00FF",
+              "content": ".COM",
+              "fontFamily": "Space Mono",
+              "fontSize": 14,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GZ1M3",
+          "name": "footerLinks",
+          "gap": 40,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "YXTOw",
+              "name": "fLink1",
+              "fill": "#666666",
+              "content": "JOKES",
+              "fontFamily": "Space Mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "LjEhv",
+              "name": "fLink2",
+              "fill": "#666666",
+              "content": "API",
+              "fontFamily": "Space Mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "njcWY",
+              "name": "fLink3",
+              "fill": "#666666",
+              "content": "GITHUB",
+              "fontFamily": "Space Mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "rN0nA",
+              "name": "fLink4",
+              "fill": "#666666",
+              "content": "PRIVACY (LOL)",
+              "fontFamily": "Space Mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "1Enlw",
+          "name": "footerCopy",
+          "fill": "#666666",
+          "content": "© 2026 TERI MUMMY DOT COM. ALL RIGHTS RESERVED. TERI MUMMY'S IZZAT IS NOT.",
+          "fontFamily": "Space Mono",
+          "fontSize": 10,
+          "fontWeight": "normal",
+          "letterSpacing": 1
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "TahIe",
+      "x": 0,
+      "y": 4200,
+      "name": "WantedPoster_ConceptA",
+      "width": 380,
+      "height": 380,
+      "fill": "#1A0F00",
+      "cornerRadius": 4,
+      "layout": "vertical",
+      "gap": 8,
+      "padding": [
+        16,
+        20
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "JLL14",
+          "name": "wantedTitle",
+          "fill": "#FFD700",
+          "content": "WANTED",
+          "textAlign": "center",
+          "fontFamily": "Anton",
+          "fontSize": 36,
+          "fontWeight": "normal",
+          "letterSpacing": 6
+        },
+        {
+          "type": "frame",
+          "id": "XM10d",
+          "name": "dividerTop",
+          "width": "fill_container",
+          "height": 2,
+          "fill": "#FFD700"
+        },
+        {
+          "type": "frame",
+          "id": "YU9AD",
+          "name": "mugshot",
+          "width": 200,
+          "height": 120,
+          "fill": "#0D0D0D",
+          "layout": "vertical",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "rBgrm",
+              "name": "mugshotLabel",
+              "fill": "#444444",
+              "content": "📷 PHOTO CLASSIFIED",
+              "textAlign": "center",
+              "fontFamily": "Space Mono",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "zJaPf",
+          "name": "teriMummyName",
+          "fill": "#FF00FF",
+          "content": "TERI MUMMY",
+          "textAlign": "center",
+          "fontFamily": "Anton",
+          "fontSize": 28,
+          "fontWeight": "normal",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "TJR8Z",
+          "name": "crimeText",
+          "fill": "#FFD700",
+          "content": "CRIME: EXCESSIVE IZZAT",
+          "textAlign": "center",
+          "fontFamily": "Space Mono",
+          "fontSize": 9,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "LWQwk",
+          "name": "lastSeenText",
+          "fill": "#888888",
+          "content": "LAST SEEN: IN YOUR HOUSE",
+          "textAlign": "center",
+          "fontFamily": "Space Mono",
+          "fontSize": 9,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "991ap",
+          "name": "bountyStrip",
+          "width": "fill_container",
+          "height": 32,
+          "fill": "#FFD700",
+          "layout": "vertical",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "UMm1d",
+              "name": "bountyText",
+              "fill": "#080808",
+              "content": "BOUNTY: ∞ IZZAT",
+              "textAlign": "center",
+              "fontFamily": "Anton",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "xnGsz",
+          "name": "cautionText",
+          "fill": "#FF00FF",
+          "content": "⚠ APPROACH WITH CAUTION ⚠",
+          "textAlign": "center",
+          "fontFamily": "Space Mono",
+          "fontSize": 7,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "m5oty",
+      "x": 0,
+      "y": 4700,
+      "name": "ConceptA2_Analyzer",
+      "clip": true,
+      "width": 420,
+      "height": 500,
+      "fill": "#1A0F00",
+      "cornerRadius": 4,
+      "layout": "vertical",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "TASYB",
+          "name": "hdr",
+          "width": "fill_container",
+          "fill": "#FFD700",
+          "padding": [
+            12,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "FXx6N",
+              "name": "hdrTxt",
+              "fill": "#080808",
+              "content": "⚠ WANTED: FACIAL SCAN ⚠",
+              "fontFamily": "Anton",
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "letterSpacing": 3
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gljHx",
+          "name": "hdrDiv",
+          "width": "fill_container",
+          "height": 2,
+          "fill": "#FFD70033"
+        },
+        {
+          "type": "frame",
+          "id": "dqJmy",
+          "name": "body",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            0,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "qtoyj",
+              "name": "MugshotScan",
+              "width": 340,
+              "height": 200,
+              "fill": "#0A0A0A",
+              "cornerRadius": 4,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PvRZn",
+                  "name": "faceFrame",
+                  "width": 340,
+                  "height": 200,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "./images/generated-1772272114678.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 4
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Eq9ug",
+              "name": "subjectName",
+              "fill": "#FF00FF",
+              "content": "TERI MUMMY",
+              "fontFamily": "Anton",
+              "fontSize": 22,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            },
+            {
+              "type": "frame",
+              "id": "cp5E8",
+              "name": "scanRow",
+              "width": 340,
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "4uHNP",
+                  "name": "scanLbl",
+                  "fill": "#FFD700",
+                  "content": "SCAN:",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 9,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "Xlwju",
+                  "name": "scanBg",
+                  "width": 224,
+                  "height": 8,
+                  "fill": "#1A1A1A",
+                  "cornerRadius": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "giDah",
+                      "name": "scanFill",
+                      "width": 160,
+                      "height": 8,
+                      "fill": "#CCFF00",
+                      "cornerRadius": 4
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "FHXm4",
+                  "name": "scanPct",
+                  "fill": "#CCFF00",
+                  "content": "72%",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 9,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m19YS",
+              "name": "bioSectionDiv",
+              "width": 340,
+              "height": 1,
+              "fill": "#333333"
+            },
+            {
+              "type": "frame",
+              "id": "6eWQY",
+              "name": "bioRow1",
+              "width": 340,
+              "height": 20,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "dEZ97",
+                  "name": "bio1L",
+                  "fill": "#666666",
+                  "content": "IZZAT LEVEL:",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 9,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "IFBON",
+                  "name": "bio1V",
+                  "fill": "#FF4444",
+                  "content": "0.3% ↓",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 9,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "l1DjV",
+              "name": "bioRow2",
+              "width": 340,
+              "height": 20,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VBUoy",
+                  "name": "bio2L",
+                  "fill": "#666666",
+                  "content": "ROAST POTENTIAL:",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 9,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "jN6L7",
+                  "name": "bio2V",
+                  "fill": "#CCFF00",
+                  "content": "MAXIMUM ⚠",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 9,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rDduD",
+              "name": "bioRow3",
+              "width": 340,
+              "height": 20,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "49DTL",
+                  "name": "bio3L",
+                  "fill": "#666666",
+                  "content": "CRIME:",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 9,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "KPiHU",
+                  "name": "bio3V",
+                  "fill": "#FF00FF",
+                  "content": "EXCESSIVE IZZAT",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 9,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SEWTC",
+          "name": "bountyBar",
+          "width": "fill_container",
+          "fill": "#FFD700",
+          "padding": [
+            12,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "BqvfW",
+              "name": "bountyTxt",
+              "fill": "#080808",
+              "content": "BOUNTY: ∞ IZZAT  —  DEAD OR ROASTED",
+              "fontFamily": "Space Mono",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "gwG3p",
+      "x": 1000,
+      "y": 820,
+      "name": "scanGlow",
+      "width": 340,
+      "height": 28,
+      "fill": "#CCFF0018"
+    },
+    {
+      "type": "frame",
+      "id": "rNgkb",
+      "x": 1000,
+      "y": 834,
+      "name": "scanLine",
+      "width": 340,
+      "height": 3,
+      "fill": "#CCFF00"
+    },
+    {
+      "type": "frame",
+      "id": "ugx77",
+      "x": 1000,
+      "y": 744,
+      "name": "tl_h",
+      "width": 28,
+      "height": 3,
+      "fill": "#CCFF00"
+    },
+    {
+      "type": "frame",
+      "id": "Clng3",
+      "x": 1000,
+      "y": 744,
+      "name": "tl_v",
+      "width": 3,
+      "height": 28,
+      "fill": "#CCFF00"
+    },
+    {
+      "type": "frame",
+      "id": "hOH16",
+      "x": 1312,
+      "y": 744,
+      "name": "tr_h",
+      "width": 28,
+      "height": 3,
+      "fill": "#CCFF00"
+    },
+    {
+      "type": "frame",
+      "id": "cDrXx",
+      "x": 1337,
+      "y": 744,
+      "name": "tr_v",
+      "width": 3,
+      "height": 28,
+      "fill": "#CCFF00"
+    },
+    {
+      "type": "frame",
+      "id": "LXg2B",
+      "x": 1000,
+      "y": 941,
+      "name": "bl_h",
+      "width": 28,
+      "height": 3,
+      "fill": "#CCFF00"
+    },
+    {
+      "type": "frame",
+      "id": "tLtsL",
+      "x": 1000,
+      "y": 916,
+      "name": "bl_v",
+      "width": 3,
+      "height": 28,
+      "fill": "#CCFF00"
+    },
+    {
+      "type": "frame",
+      "id": "Lzewj",
+      "x": 1312,
+      "y": 941,
+      "name": "br_h",
+      "width": 28,
+      "height": 3,
+      "fill": "#CCFF00"
+    },
+    {
+      "type": "frame",
+      "id": "wXBWx",
+      "x": 1337,
+      "y": 916,
+      "name": "br_v",
+      "width": 3,
+      "height": 28,
+      "fill": "#CCFF00"
+    },
+    {
+      "type": "frame",
+      "id": "c8aGK",
+      "x": 1110,
+      "y": 799,
+      "name": "targetBox",
+      "width": 100,
+      "height": 100,
+      "fill": "#FF00FF0A"
+    },
+    {
+      "type": "text",
+      "id": "ziIP0",
+      "x": 1008,
+      "y": 750,
+      "name": "analyzeTxt",
+      "fill": "#CCFF00",
+      "content": "ANALYZING... ▌",
+      "fontFamily": "Space Mono",
+      "fontSize": 8,
+      "fontWeight": "700"
+    },
+    {
+      "type": "text",
+      "id": "4wgXu",
+      "x": 1008,
+      "y": 928,
+      "name": "matchTxt",
+      "fill": "#FF4444",
+      "content": "MATCH FOUND: 94.2%",
+      "fontFamily": "Space Mono",
+      "fontSize": 8,
+      "fontWeight": "700"
+    },
+    {
+      "type": "text",
+      "id": "k90sH",
+      "x": 1290,
+      "y": 750,
+      "name": "recTxt",
+      "fill": "#FF0000",
+      "content": "● REC",
+      "fontFamily": "Space Mono",
+      "fontSize": 7,
+      "fontWeight": "normal"
+    },
+    {
+      "type": "frame",
+      "id": "lLmPH",
+      "x": 1600,
+      "y": 500,
+      "name": "M_WarnBand",
+      "clip": true,
+      "width": 390,
+      "height": 40,
+      "fill": "#FF00FF",
+      "padding": [
+        0,
+        16
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "qhxBS",
+          "name": "warntext",
+          "fill": "#080808",
+          "content": "⚡ TERI MUMMY KO GOOGLE PE SEARCH KIYA ⚡ RESULT: TOO MANY RESULTS ⚡ TERI MUMMY ITNI MOTI HAI ⚡ GRAVITY BOLTA HAI SORRY MA'AM ⚡",
+          "fontFamily": "Space Mono",
+          "fontSize": 12,
+          "fontWeight": "bold"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "1VLae",
+      "x": 1600,
+      "y": 540,
+      "name": "M_Nav",
+      "width": 390,
+      "height": 56,
+      "fill": "#080808",
+      "padding": [
+        0,
+        20
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "JTvlW",
+          "name": "navLeft",
+          "gap": 10,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "iVJxI",
+              "name": "tmCircle",
+              "width": 30,
+              "height": 30,
+              "fill": "#FF00FF",
+              "cornerRadius": 99,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jamh2",
+                  "name": "tmCircleText",
+                  "fill": "#080808",
+                  "content": "TM",
+                  "fontFamily": "Anton",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "fBpcH",
+              "name": "navBrand",
+              "fill": "#CCFF00",
+              "content": "TERI MUMMY",
+              "fontFamily": "Anton",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "58wuW",
+          "name": "hamburger",
+          "layout": "vertical",
+          "gap": 4,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "1NFaZ",
+              "name": "line1",
+              "width": 20,
+              "height": 2,
+              "fill": "#CCFF00"
+            },
+            {
+              "type": "frame",
+              "id": "7Q6X4",
+              "name": "line2",
+              "width": 20,
+              "height": 2,
+              "fill": "#CCFF00"
+            },
+            {
+              "type": "frame",
+              "id": "kOhWR",
+              "name": "line3",
+              "width": 20,
+              "height": 2,
+              "fill": "#CCFF00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "p2Ttf",
+      "x": 1600,
+      "y": 596,
+      "name": "M_Hero",
+      "width": 390,
+      "height": 580,
+      "fill": "#080808",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        48,
+        24
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "HlE9p",
+          "name": "badge",
+          "fill": "#111100",
+          "cornerRadius": 4,
+          "padding": [
+            4,
+            12
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "JGacG",
+              "name": "badgeText",
+              "fill": "#CCFF00",
+              "content": "🔞 NOT SAFE FOR MUMMIES",
+              "fontFamily": "Space Mono",
+              "fontSize": 9,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "uKlvT",
+          "name": "heroH1",
+          "fill": "#FFFFFF",
+          "textGrowth": "fixed-width",
+          "width": 342,
+          "content": "INTERNET KA",
+          "fontFamily": "Anton",
+          "fontSize": 72,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "JyBCo",
+          "name": "heroH2",
+          "fill": "#CCFF00",
+          "textGrowth": "fixed-width",
+          "width": 342,
+          "content": "SABSE KHATARNAK",
+          "fontFamily": "Anton",
+          "fontSize": 72,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "LKT4c",
+          "name": "heroH3",
+          "fill": "#FF00FF",
+          "textGrowth": "fixed-width",
+          "width": 342,
+          "content": "JOKE SITE. 💀",
+          "fontFamily": "Anton",
+          "fontSize": 72,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "Ihjl6",
+          "name": "heroTagline",
+          "fill": "#999999",
+          "textGrowth": "fixed-width",
+          "width": 342,
+          "content": "Delhi ki 2 AM chai stall energy. Teri mummy ko bhejo.",
+          "fontFamily": "Space Mono",
+          "fontSize": 12,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "89vM5",
+          "name": "heroCTA",
+          "width": 342,
+          "fill": "#CCFF00",
+          "cornerRadius": 4,
+          "padding": [
+            16,
+            32
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "eIToz",
+              "name": "ctaText",
+              "fill": "#080808",
+              "content": "AUR SUNAO! 🔥",
+              "fontFamily": "Anton",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "28QUX",
+          "name": "heroSecCTA",
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "aLlg6",
+              "name": "secCTAText",
+              "fill": "#AAAAAA",
+              "content": "API DEKHO →",
+              "fontFamily": "Space Mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "71ni5",
+      "x": 1600,
+      "y": 1176,
+      "name": "M_Ticker",
+      "clip": true,
+      "width": 390,
+      "height": 64,
+      "fill": "#CCFF00",
+      "gap": 48,
+      "padding": [
+        0,
+        16
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "gdyq6",
+          "name": "tickerInner",
+          "width": 900,
+          "gap": 48,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "v9aNn",
+              "name": "t1",
+              "fill": "#080808",
+              "content": "⚡ TERI MUMMY KO GOOGLE",
+              "fontFamily": "Space Mono",
+              "fontSize": 12,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "0LA2k",
+              "name": "t2",
+              "fill": "#FF00FF",
+              "content": "⚡ RESULT: TOO MANY",
+              "fontFamily": "Space Mono",
+              "fontSize": 12,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "text",
+              "id": "o0ZtK",
+              "name": "t3",
+              "fill": "#080808",
+              "content": "⚡ TERI MUMMY ITNI MOTI",
+              "fontFamily": "Space Mono",
+              "fontSize": 12,
+              "fontWeight": "bold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "B9e0s",
+      "x": 1600,
+      "y": 1240,
+      "name": "M_JokeZone",
+      "width": 390,
+      "height": 600,
+      "fill": "#080808",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        48,
+        24
+      ],
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "i1k4w",
+          "name": "jzLabel",
+          "fill": "#FF00FF",
+          "content": "// THE DAILY BURN //",
+          "fontFamily": "Space Mono",
+          "fontSize": 12,
+          "fontWeight": "normal",
+          "letterSpacing": 4
+        },
+        {
+          "type": "frame",
+          "id": "xY27e",
+          "name": "jokeCard",
+          "width": 342,
+          "fill": "#111111",
+          "cornerRadius": 8,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "XoBvp",
+              "name": "cardTop",
+              "width": "fill_container",
+              "fill": "#1A1A1A",
+              "padding": [
+                10,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pLvr6",
+                  "name": "cardTopLabel",
+                  "fill": "#666666",
+                  "content": "ROAST FILE #0069",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 9,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Z8tq2",
+                  "name": "cardTopBadge",
+                  "fill": "#FF0000",
+                  "content": "⛔ CLASSIFIED",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 8,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qLzP1",
+              "name": "cardBody",
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                24,
+                20
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "B1oWU",
+                  "name": "quoteChar",
+                  "fill": "#CCFF00",
+                  "content": "\"",
+                  "fontFamily": "Inter",
+                  "fontSize": 64,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "jrIEj",
+                  "name": "jokeText",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 302,
+                  "content": "TERI MUMMY ITNI MOTI HAI KI USKA PASSPORT PHOTO SATELLITE IMAGE HAI.",
+                  "fontFamily": "Anton",
+                  "fontSize": 24,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "6yG02",
+                  "name": "izzatSection",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hoBKp",
+                      "name": "izzatLabel",
+                      "fill": "#FF00FF",
+                      "content": "MUMMY KI IZZAT LEVEL:",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 9,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "waqM5",
+                      "name": "progressBg",
+                      "width": "fill_container",
+                      "height": 8,
+                      "fill": "#2A2A2A",
+                      "cornerRadius": 4,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "zqkUk",
+                          "name": "progressFill",
+                          "width": 28,
+                          "height": 8,
+                          "fill": "#CCFF00",
+                          "cornerRadius": 4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "RqyGu",
+                      "name": "izzatPct",
+                      "fill": "#FF4444",
+                      "content": "8% (CRITICALLY LOW)",
+                      "fontFamily": "Space Mono",
+                      "fontSize": 9,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ixpSt",
+                  "name": "shareRow",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kV60h",
+                      "name": "waBtn",
+                      "fill": "#25D366",
+                      "cornerRadius": 2,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AVbXd",
+                          "name": "waBtnText",
+                          "fill": "#080808",
+                          "content": "WHATSAPP",
+                          "fontFamily": "Space Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "6JRa3",
+                      "name": "tweetBtn",
+                      "fill": "#080808",
+                      "cornerRadius": 2,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "18SqF",
+                          "name": "tweetBtnText",
+                          "fill": "#1DA1F2",
+                          "content": "𝕏 TWEET",
+                          "fontFamily": "Space Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "4ofRZ",
+                      "name": "copyBtn",
+                      "fill": "#080808",
+                      "cornerRadius": 2,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "87MzR",
+                          "name": "copyBtnText",
+                          "fill": "#CCFF00",
+                          "content": "📋 COPY",
+                          "fontFamily": "Space Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NDF0s",
+          "name": "newJokeBtn",
+          "width": 342,
+          "fill": "#CCFF00",
+          "cornerRadius": 4,
+          "padding": [
+            16,
+            0
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "6WFsQ",
+              "name": "newJokeBtnText",
+              "fill": "#080808",
+              "content": "🎲 NAYA JOKE LAO",
+              "fontFamily": "Anton",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "hJp8v",
+      "x": 1600,
+      "y": 1840,
+      "name": "M_StatsBar",
+      "width": 390,
+      "height": 200,
+      "fill": "#FFD700",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "CKoj6",
+          "name": "statsRow1",
+          "width": "fill_container",
+          "height": 100,
+          "children": [
+            {
+              "type": "frame",
+              "id": "TZ1Wd",
+              "name": "stat1",
+              "width": 195,
+              "height": 100,
+              "layout": "vertical",
+              "gap": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "366IM",
+                  "name": "stat1Num",
+                  "fill": "#080808",
+                  "content": "69,420+",
+                  "fontFamily": "Anton",
+                  "fontSize": 32,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "rszK7",
+                  "name": "stat1Label",
+                  "fill": "#080808",
+                  "content": "JOKES SERVED",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 10,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HjCcy",
+              "name": "stat2",
+              "width": 195,
+              "height": 100,
+              "layout": "vertical",
+              "gap": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lS1qT",
+                  "name": "stat2Num",
+                  "fill": "#FF00FF",
+                  "content": "∞",
+                  "fontFamily": "Inter",
+                  "fontSize": 32,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "OEhDa",
+                  "name": "stat2Label",
+                  "fill": "#080808",
+                  "content": "MUMMIES ROASTED",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 10,
+                  "fontWeight": "bold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JzZQt",
+          "name": "statsDivider",
+          "width": "fill_container",
+          "height": 1,
+          "fill": "#00000033"
+        },
+        {
+          "type": "frame",
+          "id": "I6hJq",
+          "name": "statsRow2",
+          "width": "fill_container",
+          "height": 99,
+          "children": [
+            {
+              "type": "frame",
+              "id": "WleN8",
+              "name": "stat3",
+              "width": 195,
+              "height": 99,
+              "layout": "vertical",
+              "gap": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "9fwv1",
+                  "name": "stat3Num",
+                  "fill": "#080808",
+                  "content": "4.5/5",
+                  "fontFamily": "Anton",
+                  "fontSize": 32,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "oSYWF",
+                  "name": "stat3Label",
+                  "fill": "#080808",
+                  "content": "MUMMY SATISFACTION",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 10,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YHNIC",
+              "name": "stat4",
+              "width": 195,
+              "height": 99,
+              "layout": "vertical",
+              "gap": 4,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sTriv",
+                  "name": "stat4Num",
+                  "fill": "#FF00FF",
+                  "content": "100%",
+                  "fontFamily": "Anton",
+                  "fontSize": 32,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "5XvPP",
+                  "name": "stat4Label",
+                  "fill": "#080808",
+                  "content": "IZZAT DESTROYED",
+                  "fontFamily": "Space Mono",
+                  "fontSize": 10,
+                  "fontWeight": "bold"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
