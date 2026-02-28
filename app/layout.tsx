@@ -7,8 +7,15 @@ const spaceMono = Space_Mono({ weight: ["400", "700"], subsets: ["latin"], varia
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Teri Mummy | Hindi Roast HQ",
-  description: "Desi roast walla joke playground with API access."
+  title: "TeriMummy",
+  description: "Epic desi roast central where Teri Mummy memes hit like spicy chaat – all fun, no burns! 🌶️😆",
+  icons: {
+    icon: "/tm_logo.svg",      // default favicon in public/
+    apple: "/tm_logo.svg",
+    other: [
+      { rel: "shortcut icon", url: "/tm_logo.svg" }
+    ]
+  }
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
