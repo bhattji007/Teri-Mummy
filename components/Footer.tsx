@@ -9,7 +9,7 @@ export function Footer() {
         <div className="footer-links">
           <a href="#joke-zone">JOKES</a>
           <a href="#api-zone">API</a>
-          <a href="https://github.com" target="_blank" rel="noreferrer">
+          <a href="https://github.com/bhattji007" target="_blank" rel="noreferrer">
             GITHUB
           </a>
           <a href="#joke-zone">PRIVACY (LOL)</a>

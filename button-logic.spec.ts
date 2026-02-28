@@ -24,7 +24,7 @@ test('button and link logic', async ({ browser }) => {
   const navGithubPromise = page.waitForEvent('popup');
   await page.locator('.nav-links a').nth(2).click();
   const navGithub = await navGithubPromise;
-  expect(navGithub.url()).toContain('github.com');
+  expect(navGithub.url()).toContain('github.com/bhattji007');
   await navGithub.close();
 
   await page.locator('.footer-links a').nth(0).click();
@@ -36,7 +36,7 @@ test('button and link logic', async ({ browser }) => {
   const footerGithubPromise = page.waitForEvent('popup');
   await page.locator('.footer-links a').nth(2).click();
   const footerGithub = await footerGithubPromise;
-  expect(footerGithub.url()).toContain('github.com');
+  expect(footerGithub.url()).toContain('github.com/bhattji007');
   await footerGithub.close();
 
   await page.locator('.footer-links a').nth(3).click();
