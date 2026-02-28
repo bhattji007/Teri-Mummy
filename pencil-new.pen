@@ -3375,6 +3375,263 @@
           ]
         }
       ]
+    },
+    {
+      "type": "frame",
+      "id": "ZdJvU",
+      "x": 1600,
+      "y": 2040,
+      "name": "M_Testimonials",
+      "width": 390,
+      "height": 520,
+      "fill": "#080808",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": [
+        40,
+        24
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "Yjy3T",
+          "name": "testimonialsTitle",
+          "fill": "#CCFF00",
+          "content": "LOG KYA BOL RAHE",
+          "fontFamily": "Anton",
+          "fontSize": 40,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "6ZBej",
+          "name": "quote1",
+          "width": 342,
+          "fill": "#111111",
+          "cornerRadius": 8,
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            18,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "j4OBh",
+              "name": "quote1Text",
+              "fill": "#F4F4F4",
+              "textGrowth": "fixed-width",
+              "width": 310,
+              "content": "\"Pehla joke suna, dost ne 3 din seen pe chhod diya.\"",
+              "fontFamily": "Space Mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "NZByN",
+              "name": "quote1User",
+              "fill": "#CCFF00",
+              "content": "— Bunty, Delhi",
+              "fontFamily": "Space Mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QPdeK",
+          "name": "quote2",
+          "width": 342,
+          "fill": "#111111",
+          "cornerRadius": 8,
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            18,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "pRwLr",
+              "name": "quote2Text",
+              "fill": "#F4F4F4",
+              "textGrowth": "fixed-width",
+              "width": 310,
+              "content": "\"Party mein try kiya, table se hi respect mil gaya.\"",
+              "fontFamily": "Space Mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "B5iOi",
+              "name": "quote2User",
+              "fill": "#CCFF00",
+              "content": "— Riya, Pune",
+              "fontFamily": "Space Mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ITCtM",
+          "name": "quote3",
+          "width": 342,
+          "fill": "#111111",
+          "cornerRadius": 8,
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            18,
+            16
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "x93Vn",
+              "name": "quote3Text",
+              "fill": "#F4F4F4",
+              "content": "\"Iss site ne comeback speed 2x kar di.\"",
+              "fontFamily": "Space Mono",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Ua8TZ",
+              "name": "quote3User",
+              "fill": "#CCFF00",
+              "content": "— Faizan, Lucknow",
+              "fontFamily": "Space Mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "jpAK9",
+      "x": 1600,
+      "y": 2560,
+      "name": "M_ApiSection",
+      "width": 390,
+      "height": 420,
+      "fill": "#080808",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": [
+        40,
+        24
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "G8vv5",
+          "name": "apiTitle",
+          "fill": "#FFFFFF",
+          "content": "API DEKHO",
+          "fontFamily": "Anton",
+          "fontSize": 40,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "U6mOw",
+          "name": "terminal",
+          "width": 342,
+          "fill": "#0F0F0F",
+          "cornerRadius": 8,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "hr3d1",
+              "name": "terminalTop",
+              "width": "fill_container",
+              "fill": "#0A0A0A",
+              "gap": 6,
+              "padding": [
+                10,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "w91p3",
+                  "name": "dot1",
+                  "width": 8,
+                  "height": 8,
+                  "fill": "#FF5F57",
+                  "cornerRadius": 99
+                },
+                {
+                  "type": "frame",
+                  "id": "oGQ1n",
+                  "name": "dot2",
+                  "width": 8,
+                  "height": 8,
+                  "fill": "#FEBB2E",
+                  "cornerRadius": 99
+                },
+                {
+                  "type": "frame",
+                  "id": "QSOv5",
+                  "name": "dot3",
+                  "width": 8,
+                  "height": 8,
+                  "fill": "#28C840",
+                  "cornerRadius": 99
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "xFb0T",
+              "name": "apiCode",
+              "fill": "#CCFF00",
+              "content": "GET /api/random\n200 OK\n{\n  \"id\": 7,\n  \"line\": \"Teri mummy ka network...\"\n}\n\nGET /api\n200 OK\n{\n  \"total\": 20\n}",
+              "fontFamily": "Space Mono",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "3c8QV",
+      "x": 1600,
+      "y": 2980,
+      "name": "M_Footer",
+      "width": 390,
+      "height": 140,
+      "fill": "#080808",
+      "layout": "vertical",
+      "gap": 6,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "eMB2f",
+          "name": "footerText",
+          "fill": "#888888",
+          "content": "Built for laughs. Roast responsibly.",
+          "fontFamily": "Space Mono",
+          "fontSize": 12,
+          "fontWeight": "normal"
+        }
+      ]
     }
   ]
 }

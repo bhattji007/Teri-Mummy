@@ -2,3 +2,8 @@
 .claude-flow/
 CLAUDE.md
 .swarm
+node_modules
+.next
+out
+dist
+*.log
