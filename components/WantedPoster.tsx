@@ -5,8 +5,6 @@ import { useEffect, useState } from "react";
 export function WantedPoster() {
   const [scanProgress, setScanProgress] = useState(24.0);
   const [dots, setDots] = useState(1);
-  const [recOn, setRecOn] = useState(true);
-
   useEffect(() => {
     let current = 24;
     let direction: 1 | -1 = 1;
@@ -32,7 +30,6 @@ export function WantedPoster() {
   useEffect(() => {
     const dotsTimer = setInterval(() => {
       setDots((value) => (value % 3) + 1);
-      setRecOn((value) => !value);
     }, 420);
 
     return () => clearInterval(dotsTimer);
@@ -50,13 +47,14 @@ export function WantedPoster() {
             src="/wanted-face.png"
             alt="Facial scan target"
             loading="lazy"
+            onError={(e) => { e.currentTarget.className = "face-gradient"; }}
           />
           <div className="scan-overlay" />
           <span className="corner c1" />
           <span className="corner c2" />
           <span className="corner c3" />
           <span className="corner c4" />
-          <div className={`scan-rec ${recOn ? "on" : "off"}`}>
+          <div className="scan-rec">
             <span className="scan-rec-dot" />
             REC
           </div>
@@ -88,15 +86,15 @@ export function WantedPoster() {
 
         <div className="bio-row">
           <span>AGE</span>
-          <strong>FOREVER 29</strong>
+          <span className="bio-val">FOREVER 29</span>
         </div>
         <div className="bio-row">
           <span>LAST SEEN</span>
-          <strong>IN EVERY GROUP CHAT</strong>
+          <span className="bio-val">IN EVERY GROUP CHAT</span>
         </div>
         <div className="bio-row">
           <span>DANGER LEVEL</span>
-          <strong>NUCLEAR ☢</strong>
+          <span className="bio-val">NUCLEAR ☢</span>
         </div>
       </div>
 

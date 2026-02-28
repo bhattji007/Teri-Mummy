@@ -8,7 +8,7 @@ const goals = [
 export function StatsBar() {
   return (
     <section className="stats-wrap">
-      <div className="container stats-grid">
+      <div className="stats-grid">
         {goals.map((goal) => (
           <div key={goal.label} className="stat">
             <strong>{goal.value}</strong>

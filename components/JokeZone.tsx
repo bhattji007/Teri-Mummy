@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import type { RoastJoke } from "@/data/jokes";
 
 type JokeZoneProps = {
@@ -10,19 +10,42 @@ type JokeZoneProps = {
 export function JokeZone({ initialJoke }: JokeZoneProps) {
   const [joke, setJoke] = useState<RoastJoke>(initialJoke);
   const [loading, setLoading] = useState(false);
-  const [izzatLevel, setIzzatLevel] = useState(8);
+  const [izzatLevel, setIzzatLevel] = useState(() => Math.floor(Math.random() * 46) + 50);
+  const [displayText, setDisplayText] = useState(initialJoke.joke.toUpperCase());
+  const [isTyping, setIsTyping] = useState(false);
+  const isFirstRender = useRef(true);
 
-  const displayedJoke = joke.joke.toUpperCase();
+  useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+    const fullText = joke.joke.toUpperCase();
+    setDisplayText("");
+    setIsTyping(true);
+    let i = 0;
+    const charDelay = Math.max(14, Math.min(34, Math.floor(1800 / fullText.length)));
+    const timer = setInterval(() => {
+      i++;
+      setDisplayText(fullText.slice(0, i));
+      if (i >= fullText.length) {
+        clearInterval(timer);
+        setIsTyping(false);
+      }
+    }, charDelay);
+    return () => clearInterval(timer);
+  }, [joke]);
 
   const loadRandomJoke = async () => {
     setLoading(true);
     try {
-      const response = await fetch("/api/random", { cache: "no-store" });
+      const response = await fetch(`/api/random?except=${joke.id}`, { cache: "no-store" });
+      if (!response.ok) throw new Error(response.statusText);
       const nextJoke = (await response.json()) as RoastJoke;
       setJoke(nextJoke);
-
-      const nextLevel = Math.max(3, Math.min(26, 4 + (nextJoke.id * 7) % 23));
-      setIzzatLevel(nextLevel);
+      setIzzatLevel(Math.floor(Math.random() * 49) + 50);
+    } catch {
+      // keep existing joke on error
     } finally {
       setLoading(false);
     }
@@ -42,8 +65,19 @@ export function JokeZone({ initialJoke }: JokeZoneProps) {
     );
   };
 
+  const izzatColor =
+    izzatLevel >= 85 ? "#ff2222" :
+    izzatLevel >= 70 ? "#ff6b00" :
+                       "#ffd700";
+
+  const izzatLabel =
+    izzatLevel >= 90 ? "COMPLETELY FLATLINED" :
+    izzatLevel >= 80 ? "NUCLEAR LEVEL"        :
+    izzatLevel >= 65 ? "CRITICALLY LOW"       :
+                       "DANGEROUSLY LOW";
+
   const copyJoke = async () => {
-    await navigator.clipboard.writeText(displayedJoke);
+    await navigator.clipboard.writeText(`${joke.joke} ${joke.punchline}`);
   };
 
   return (
@@ -55,18 +89,21 @@ export function JokeZone({ initialJoke }: JokeZoneProps) {
           <p className="joke-classified">⛔ CLASSIFIED</p>
         </div>
         <div className="joke-body">
-          <p className="joke-open-quote">&quot;</p>
-          <h2>{displayedJoke}</h2>
+          <p className="joke-open-quote">{'\u201C'}</p>
+          <h2>
+            {displayText}
+            {isTyping && <span className="typewriter-cursor" aria-hidden="true">|</span>}
+          </h2>
           <div className="izzat-section">
             <p>MUMMY KI IZZAT LEVEL:</p>
             <div className="izzat-progress">
               <div
                 className="izzat-progress-fill"
-                style={{ width: `${izzatLevel}%` }}
+                style={{ width: `${izzatLevel}%`, background: izzatColor }}
                 aria-label={`Izzat level ${izzatLevel}%`}
               />
             </div>
-            <span>{izzatLevel}% (CRITICALLY LOW)</span>
+            <span style={{ color: izzatColor }}>{izzatLevel}% ({izzatLabel})</span>
           </div>
           <div className="joke-divider" />
           <div className="joke-actions">
