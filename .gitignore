@@ -8,3 +8,5 @@ out
 dist
 *.log
 .planning/
+.env.local
+.env*.local
