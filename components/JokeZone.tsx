@@ -10,6 +10,8 @@ type JokeZoneProps = {
 export function JokeZone({ initialJoke }: JokeZoneProps) {
   const [joke, setJoke] = useState<RoastJoke>(initialJoke);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
+  const [copied, setCopied] = useState(false);
   const [izzatLevel, setIzzatLevel] = useState(() => Math.floor(Math.random() * 46) + 50);
   const [displayText, setDisplayText] = useState(initialJoke.joke.toUpperCase());
   const [isTyping, setIsTyping] = useState(false);
@@ -45,7 +47,8 @@ export function JokeZone({ initialJoke }: JokeZoneProps) {
       setJoke(nextJoke);
       setIzzatLevel(Math.floor(Math.random() * 49) + 50);
     } catch {
-      // keep existing joke on error
+      setError(true);
+      setTimeout(() => setError(false), 3000);
     } finally {
       setLoading(false);
     }
@@ -78,6 +81,8 @@ export function JokeZone({ initialJoke }: JokeZoneProps) {
 
   const copyJoke = async () => {
     await navigator.clipboard.writeText(`${joke.joke} ${joke.punchline}`);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
   };
 
   return (
@@ -114,11 +119,14 @@ export function JokeZone({ initialJoke }: JokeZoneProps) {
               🐦 POST ON X
             </button>
             <button className="btn btn-dark" onClick={copyJoke}>
-              📋 COPY
+              {copied ? "✅ COPIED!" : "📋 COPY"}
             </button>
           </div>
         </div>
       </div>
+      {error && (
+        <p className="joke-error" role="alert">⚠️ NETWORK ERROR — THODA BAAD TRY KARO</p>
+      )}
       <button className="btn btn-lime btn-joke" onClick={loadRandomJoke} disabled={loading}>
         {loading ? "LOADING..." : "🎲 NAYA JOKE LAO"}
       </button>
