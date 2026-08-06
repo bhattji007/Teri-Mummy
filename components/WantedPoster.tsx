@@ -8,31 +8,24 @@ export function WantedPoster() {
   useEffect(() => {
     let current = 24;
     let direction: 1 | -1 = 1;
+    let tick = 0;
 
     const timer = setInterval(() => {
+      // Update scan progress every tick
       const step = 2 + Math.random() * 4.5;
       current += step * direction;
-
-      if (current >= 98) {
-        current = 98;
-        direction = -1;
-      } else if (current <= 22) {
-        current = 22;
-        direction = 1;
-      }
-
+      if (current >= 98) { current = 98; direction = -1; }
+      else if (current <= 22) { current = 22; direction = 1; }
       setScanProgress(Number(current.toFixed(1)));
+
+      // Update dots every ~420ms (every ~2.3 ticks at 180ms interval)
+      tick++;
+      if (tick % 2 === 0) {
+        setDots((value) => (value % 3) + 1);
+      }
     }, 180);
 
     return () => clearInterval(timer);
-  }, []);
-
-  useEffect(() => {
-    const dotsTimer = setInterval(() => {
-      setDots((value) => (value % 3) + 1);
-    }, 420);
-
-    return () => clearInterval(dotsTimer);
   }, []);
 
   return (
